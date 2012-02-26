@@ -33,6 +33,8 @@
 		60FF002213C024E8004A1394 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FF002113C024E8004A1394 /* GHUnitIOS.framework */; };
 		60FF002513C02863004A1394 /* NSArrayBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF002413C02863004A1394 /* NSArrayBlocksKitTest.m */; };
 		60FF002913C03199004A1394 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DBF8D1382F1BA00E6C9AA /* libBlocksKit.a */; };
+		6A3C018F14FA6C980053EB2C /* UIMenuItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3C018D14FA6C980053EB2C /* UIMenuItem+BlocksKit.h */; };
+		6A3C019014FA6C980053EB2C /* UIMenuItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */; };
 		6C145417138497D50067A56E /* BKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C145416138497D40067A56E /* BKGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2427F313C5653E0016A271 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2427F113C5653E0016A271 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2427F413C5653E0016A271 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2427F113C5653E0016A271 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -344,6 +346,8 @@
 		60FF002113C024E8004A1394 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		60FF002313C02863004A1394 /* NSArrayBlocksKitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayBlocksKitTest.h; sourceTree = "<group>"; };
 		60FF002413C02863004A1394 /* NSArrayBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayBlocksKitTest.m; sourceTree = "<group>"; };
+		6A3C018D14FA6C980053EB2C /* UIMenuItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMenuItem+BlocksKit.h"; sourceTree = "<group>"; };
+		6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuItem+BlocksKit.m"; sourceTree = "<group>"; };
 		6C145416138497D40067A56E /* BKGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGlobals.h; sourceTree = "<group>"; };
 		6C2427F113C5653E0016A271 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
 		6C2427F213C5653E0016A271 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
@@ -671,6 +675,8 @@
 				6C6AAD9F138372E300203261 /* UIView+BlocksKit.m */,
 				6CC56DF71386A48900925FDC /* UIWebView+BlocksKit.h */,
 				6CC56DF81386A48900925FDC /* UIWebView+BlocksKit.m */,
+				6A3C018D14FA6C980053EB2C /* UIMenuItem+BlocksKit.h */,
+				6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -848,6 +854,7 @@
 				6CE3825A14A2653500921B80 /* A2BlockDelegate.h in Headers */,
 				6CE3826414A2653500921B80 /* A2DynamicDelegate.h in Headers */,
 				00D28AC814AAC43E00ECB62C /* UIPopoverController+BlocksKit.h in Headers */,
+				6A3C018F14FA6C980053EB2C /* UIMenuItem+BlocksKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1231,6 +1238,7 @@
 				6CE3825F14A2653500921B80 /* A2BlockDelegate.m in Sources */,
 				6CE3826914A2653500921B80 /* A2DynamicDelegate.m in Sources */,
 				00D28AC914AAC43E00ECB62C /* UIPopoverController+BlocksKit.m in Sources */,
+				6A3C019014FA6C980053EB2C /* UIMenuItem+BlocksKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
