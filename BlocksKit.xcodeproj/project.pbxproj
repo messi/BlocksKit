@@ -35,6 +35,8 @@
 		60FF002913C03199004A1394 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DBF8D1382F1BA00E6C9AA /* libBlocksKit.a */; };
 		6A3C018F14FA6C980053EB2C /* UIMenuItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3C018D14FA6C980053EB2C /* UIMenuItem+BlocksKit.h */; };
 		6A3C019014FA6C980053EB2C /* UIMenuItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */; };
+		6A3C019214FA72840053EB2C /* UIMenuItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */; };
+		6A3C019314FA74A60053EB2C /* UIMenuItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C018E14FA6C980053EB2C /* UIMenuItem+BlocksKit.m */; };
 		6C145417138497D50067A56E /* BKGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C145416138497D40067A56E /* BKGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2427F313C5653E0016A271 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2427F113C5653E0016A271 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2427F413C5653E0016A271 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2427F113C5653E0016A271 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1117,6 +1119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3C019214FA72840053EB2C /* UIMenuItem+BlocksKit.m in Sources */,
 				6C3DBFA01382F27300E6C9AA /* NSArray+BlocksKit.m in Sources */,
 				6C3DBFAC1382FD3B00E6C9AA /* NSSet+BlocksKit.m in Sources */,
 				6C3DBFB11383010100E6C9AA /* NSDictionary+BlocksKit.m in Sources */,
@@ -1177,6 +1180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3C019314FA74A60053EB2C /* UIMenuItem+BlocksKit.m in Sources */,
 				6C79A16313F5B58C00CD8064 /* NSCache+BlocksKit.m in Sources */,
 				6CC0900A13855CEE00DDEABB /* NSObject+BlocksKit.m in Sources */,
 				6CC0900B13855CEE00DDEABB /* NSObject+BlockObservation.m in Sources */,
